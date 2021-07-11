@@ -1,3 +1,51 @@
+/* start of my css */
+body {
+    background-image: url(images/white-background.png);
+}
 header {
-    background-color: rgb(7, 83, 150);
+    text-align: center;
+}
+
+.logo {
+    font-size: 70px;
+    font-family:sans-serif, Verdana, Tahoma;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.center {
+    border-radius: 8px;
+    border: 1px solid #c5c0b8;
+}
+
+.border-top {
+    padding-top: 80px;
+    border-top: 2px solid;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0 25%;
+    margin: 80px auto;
+    padding: 100px 30px;
+    max-width: 1000px;
+}
+
+p {
+    text-align: center;
+}
+
+a:link {color: blue;}
+
+ul {
+max-width: 500px;
+margin: 0 auto;
+}
+
+ol {
+max-width: 100px;
+margin: 0 auto;
 }
